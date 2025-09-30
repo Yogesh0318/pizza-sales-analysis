@@ -39,13 +39,26 @@ The database consists of three main tables:
 | category   | VARCHAR  | Category (Veg/Non-Veg)             |
 | price      | DECIMAL  | Price of a single pizza             |
 
+
 ---
 
-## Key Questions & SQL Analysis
 
-Below are the main business questions answered with SQL queries:
 
-1. **Total Number of Orders**
-```sql
-SELECT COUNT(*) AS total_orders
-FROM orders;
+---
+
+## ❓ Business Questions Answered
+
+1. Retrieve the total number of orders placed.  
+2. Calculate the total revenue generated from pizza sales.  
+3. Identify the highest-priced pizza.  
+4. Find the most common pizza size ordered.  
+5. List the top 5 most ordered pizza types along with their quantities.  
+6. Join necessary tables to find the total quantity of each pizza category ordered.  
+7. Determine the distribution of orders by hour of the day.  
+8. Find the category-wise contribution to total revenue.  
+9. List the top 3 most ordered pizza types based on revenue.  
+10. Analyze the average order value.
+
+---
+
+
